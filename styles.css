@@ -124,6 +124,7 @@ img {
 	justify-content: center;
 	gap: 2.5rem;
 	background-color: #08070880;
+	-webkit-backdrop-filter: blur(0.75rem);
 	backdrop-filter: blur(0.75rem);
 	max-width: calc(1280px + 4rem);
 	margin: auto;
@@ -290,6 +291,7 @@ img {
 	width: 5rem;
 	height: calc(100% - var(--progress) - 10rem);
 	max-height: 100%;
+	-webkit-backdrop-filter: grayscale();
 	backdrop-filter: grayscale();
 	transition: height 100ms cubic-bezier(0.25, 1, 0.5, 1);
 }
