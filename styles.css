@@ -340,6 +340,7 @@ img {
 	align-items: center;
 	gap: 5rem;
 	animation: brand-list 30s linear infinite;
+	padding-inline: 2.5rem;
 }
 
 .brand {
