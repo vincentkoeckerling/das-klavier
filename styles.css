@@ -139,6 +139,7 @@ img {
 	border-bottom: 0.1rem solid var(--white);
 	border-color: transparent;
 	text-transform: uppercase;
+	transition: border-color 100ms ease, color 100ms ease;
 }
 
 .nav__link:hover {
