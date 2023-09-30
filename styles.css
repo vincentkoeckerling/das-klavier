@@ -388,6 +388,10 @@ img {
 	align-items: end;
 }
 
+.footer > div > div:last-child {
+	text-align: right;
+}
+
 @media screen and (max-width: 991px) {
 	html {
 		font-size: 1.614vw;
